@@ -188,7 +188,8 @@ fun MyProfilePost(modifier: Modifier, post: PostModel) {
             )
 
             Text(
-                text = "${post.username} • ${post.postedTime}",
+
+                text = "${post.username} � ${post.postedTime}",
                 fontSize = 8.sp,
                 modifier = postModifier
                     .constrainAs(subredditName) {
